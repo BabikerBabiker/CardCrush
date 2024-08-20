@@ -14,7 +14,7 @@ import {
   Typography,
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
-import Head from "next/head";
+import Head from 'next/head';
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
@@ -202,6 +202,16 @@ export default function Home() {
           name="description"
           content="Create Flashcards from your text very simply"
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RZHGR48D73"></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-RZHGR48D73');
+          `}
+        </script>
       </Head>
 
       {}
