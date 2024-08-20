@@ -138,7 +138,7 @@ export default function Home() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          origin: "http://localhost:3000",
+          origin: "https://cardcrush.vercel.app/",
         },
       });
 
