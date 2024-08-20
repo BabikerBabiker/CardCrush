@@ -216,7 +216,7 @@ export default function Generate() {
             variant="body1"
             sx={{ mb: 3, color: "#b0b0b0", textAlign: "center", maxWidth: 600 }}
           >
-            Easily create flashcards by entering text. Click "Submit" to
+            Easily create flashcards by entering text. Click Submit to
             generate flashcards based on your input. You can review and save
             your flashcards once generated.
           </Typography>
