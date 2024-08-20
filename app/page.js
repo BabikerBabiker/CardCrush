@@ -138,7 +138,7 @@ export default function Home() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          origin: "https://cardcrush.vercel.app/",
+          origin: "https://cardcrush.bbabiker.com/",
         },
       });
 
