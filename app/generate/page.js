@@ -191,7 +191,7 @@ export default function Generate() {
         )}
         <Box
           sx={{
-            mb: 6,
+            mb: 23,
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
