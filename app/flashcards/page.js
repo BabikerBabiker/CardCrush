@@ -124,9 +124,10 @@ export default function Flashcard() {
   }, [user]);
 
   const handleCardClick = (id) => {
-    router.push(`/flashcard?id=${id}`);
+    const encodedId = encodeURIComponent(id);
+    router.push(`/flashcard?id=${encodedId}`);
   };
-
+  
   if (!isLoaded || !isSignedIn) {
     return <></>;
   }

@@ -118,7 +118,7 @@ export default function Flashcard() {
   const [flipped, setFlipped] = useState({});
   const [collectionName, setCollectionName] = useState("");
   const searchParams = useSearchParams();
-  const search = searchParams.get("id");
+  const search = decodeURIComponent(searchParams.get("id"));
   const router = useRouter();
 
   useEffect(() => {
